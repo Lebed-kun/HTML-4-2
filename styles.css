@@ -1,0 +1,27 @@
+body {
+  color: #444;
+}
+
+.header {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 0 #444, 1px 1px 0 #fff;
+}
+
+.header, .subheader {
+  text-align: center;
+}
+
+.subheader {
+  text-decoration: underline;
+  word-break: normal;
+}
+
+.paragraph {
+  text-indent: 3rem;
+  text-align: justify;
+}
+
+.paragraph::first-letter {
+  font-size: 20px;
+}
